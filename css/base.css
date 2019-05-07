@@ -1,0 +1,91 @@
+/* 初始化css文件 */
+/* 测试代码 */
+body {
+    height: 3000px;
+    min-width: 850px;
+    /* background-color: #ccc; */
+    color: #333;
+    font: normal 14px/22px "microsoft yahei";
+}
+.w {
+    width: 1130px;
+    margin: 0 auto;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+    vertical-align: top;
+    width: 100%;
+}
+ul {
+    list-style: none;
+}
+input {
+    outline: none;
+}
+i,em {
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(0, 187, 179, 1.00);
+}
+
+/* 常用属性 */
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.ofh {
+    overflow: hidden;
+}
+.tac {
+    text-align: center;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+.f12 {
+    font-size: 12px;
+}
+.f14 {
+    font-size: 14px;
+}
+.f16 {
+    font-size: 16px;
+}
+.f18 {
+    font-size: 18px;
+}
+.f20 {
+    font-size: 20px;
+}
+.f22 {
+    font-size: 22px;
+}
+.f24 {
+    font-size: 24px;
+}
+.f26 {
+    font-size: 26px;
+}
+
