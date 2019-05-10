@@ -1,0 +1,276 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+input {
+  border: 0;
+  outline: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  outline: none;
+}
+body {
+  font: 14px arial, 'microsoft yahei';
+  background-color: #f3f6f6;
+}
+.wrapper {
+  width: 1130px;
+  margin: 0 auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body {
+  font-family: 'microsoft yahei', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: #74797b;
+  font-weight: 400;
+}
+.blackTitle {
+  background-color: #222;
+  height: 161px;
+  box-sizing: border-box;
+}
+.blackTitle .wrapper div {
+  width: 25%;
+  text-align: center;
+  padding-top: 25px;
+}
+.blackTitle .wrapper div h3 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+.blackTitle .wrapper div p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #797979;
+}
+.banner-show .small-bg {
+  height: 196px;
+  background: url(../images/background.png) no-repeat white center;
+}
+.banner-show .xinMing-show {
+  height: 494px;
+  padding-top: 74px;
+  background-color: #f9f9f9;
+  position: relative;
+}
+.banner-show .xinMing-show .products-iPhone {
+  width: 23%;
+  position: absolute;
+  top: -105px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.banner-show .xinMing-show .products-iPhone img {
+  display: none;
+  position: absolute;
+}
+.banner-show .xinMing-show p {
+  margin: 25px 0 21px;
+}
+.banner-show .xinMing-show .h3box {
+  height: 26px;
+}
+.banner-show .xinMing-show .h3box h3 {
+  line-height: 10px;
+}
+.banner-show .xinMing-show .h3box h3:hover .under-line {
+  width: 100%;
+}
+.banner-show .xinMing-show .show-l {
+  width: 385px;
+  text-align: right;
+  position: relative;
+}
+.banner-show .xinMing-show .show-l h3 {
+  width: 106px;
+  color: #00bbb3;
+  font-size: 15px;
+}
+.banner-show .xinMing-show .show-l .show-l-3 h3 {
+  width: 120px;
+}
+.banner-show .xinMing-show .show-r {
+  width: 385px;
+  text-align: left;
+}
+.banner-show .xinMing-show .show-r h3 {
+  width: 106px;
+  color: #00bbb3;
+  font-size: 15px;
+}
+.banner-show .xinMing-show .show-r .show-r-3 h3 {
+  width: 120px;
+}
+.banner-show .xinMing-show .under-line {
+  display: inline-block;
+  height: 1px;
+  width: 0px;
+  background-color: #00bbb3;
+  transition: 0.3s linear;
+}
+.banner-show .xinMing-show .items {
+  display: none;
+  position: relative;
+}
+.router-Chart {
+  margin-top: 40px;
+  height: 418px;
+  background: url(../images/sss.bmp) no-repeat;
+  text-align: center;
+  position: relative;
+}
+.router-Chart .view {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+.router-Chart .list {
+  height: 100%;
+  width: 800%;
+  overflow: hidden;
+  position: absolute;
+}
+.router-Chart .list li {
+  height: 100%;
+  width: 12.5%;
+  float: left;
+}
+.router-Chart .list li p {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 32px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 60px;
+}
+.router-Chart .list li p i {
+  left: 50%;
+  top: -70px;
+  font-size: 40px;
+  position: absolute;
+}
+.router-Chart .list li .top {
+  margin-top: 8%;
+}
+.router-Chart .list li .bottom {
+  font-size: 24px;
+}
+.router-Chart .list li .bottom span {
+  color: #00bbb3;
+}
+.router-Chart .dot {
+  top: 0;
+  right: 30px;
+  bottom: 0;
+  margin: auto;
+  height: 156px;
+  position: absolute;
+}
+.router-Chart .dot li {
+  width: 10px;
+  height: 10px;
+  margin: 10px;
+  cursor: pointer;
+  text-align: center;
+}
+.router-Chart .dot li span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #fff;
+}
+.active span {
+  width: 10px !important;
+  height: 10px !important;
+}
+.greenTitle {
+  background: url(../images/222.JPG);
+  text-align: center;
+  box-sizing: border-box;
+}
+.greenTitle .element {
+  padding: 39px 0 34px 0;
+  line-height: 77px;
+  height: 150px;
+  color: #fff;
+}
+.greenTitle .element span {
+  font-size: 26px;
+  font-weight: 400;
+}
+.lastFooter {
+  background-color: #303030;
+}
+.lastFooter .filing-query-number {
+  padding: 25px 0;
+  color: #969487;
+  text-align: center;
+}
+.lastFooter .filing-query-number span:hover {
+  color: #fff;
+  cursor: pointer;
+}
+.lastFooter .friendly-link {
+  width: 95%;
+  margin: 0 auto;
+  padding: 15px 0;
+  border-top: 1px solid #999;
+}
+.lastFooter .friendly-link a {
+  color: #969487;
+  font-size: 12px;
+  padding: 0 6px;
+}
+.lastFooter .friendly-link a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.toTop {
+  text-align: center;
+  color: #fff;
+  position: fixed;
+  display: none;
+  right: 0;
+  bottom: 0;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #00bbb4;
+}
+.toTop span {
+  cursor: pointer;
+}

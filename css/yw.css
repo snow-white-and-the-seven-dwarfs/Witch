@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.bottom-box {
+  height: 541px;
+  background-color: #212121;
+  display: flex;
+  padding-top: 40px;
+}
+.bottom-box .box-one {
+  height: 378px;
+  flex: 1;
+}
+.bottom-box .box-one img {
+  width: 226px;
+  height: 68px;
+  margin-left: 43px;
+}
+.bottom-box .box-one p {
+  font-size: 12px;
+  color: #a9a9a9;
+  padding-left: 41px;
+}
+.bottom-box .box-one .p1 {
+  padding-top: 46px;
+  padding-bottom: 20px;
+}
+.bottom-box .box-one .p2 {
+  padding-bottom: 20px;
+}
+.bottom-box .box-one .p3 {
+  padding-bottom: 44px;
+}
+.bottom-box .box-one .d1 {
+  width: 264px;
+  border-bottom: 1px solid#414141;
+  padding-top: 90px;
+  margin-left: 43px;
+}
+.bottom-box .box-two {
+  height: 378px;
+  flex: 1;
+  border-left: 1px solid #414141;
+}
+.bottom-box .box-two h2 {
+  font-size: 26px;
+  color: #fff;
+  margin-left: 34px;
+  margin-top: -1px;
+}
+.bottom-box .box-two ul {
+  margin-top: 27px;
+}
+.bottom-box .box-two li {
+  margin-left: 34px;
+  margin-right: 40px;
+  border-bottom: 1px solid #414141;
+  height: 49px;
+  line-height: 49px;
+}
+.bottom-box .box-two li a {
+  display: block;
+  color: #a9a9a9;
+  font-size: 12px;
+  text-decoration: none;
+}
+.bottom-box .box-two li a:hover {
+  color: #fff;
+}
+.bottom-box .box-three {
+  height: 378px;
+  flex: 1;
+  border-left: 1px solid #414141;
+}
+.bottom-box .box-three h2 {
+  font-size: 26px;
+  color: #fff;
+  margin-left: 34px;
+  margin-bottom: 40px;
+  margin-top: -1px;
+}
+.bottom-box .box-three p {
+  font-size: 12px;
+  color: #a9a9a9;
+  padding-left: 34px;
+  margin-bottom: 20px;
+}
+.bottom-box .box-four {
+  height: 378px;
+  flex: 1;
+  border-left: 1px solid #414141;
+  position: relative;
+}
+.bottom-box .box-four h2 {
+  font-size: 26px;
+  color: #fff;
+  margin-left: 34px;
+  margin-bottom: 38px;
+  margin-top: -1px;
+}
+.bottom-box .box-four p {
+  font-size: 12px;
+  color: #a9a9a9;
+  padding-left: 34px;
+  margin-bottom: 20px;
+}
+.bottom-box .box-four .img1 {
+  width: 98px;
+  margin-left: 45px;
+}
+.bottom-box .box-four .img2 {
+  margin-left: 35px;
+  width: 100px;
+}
+.bottom-box .box-four .t1 {
+  float: left;
+  margin-top: 5px;
+  padding-left: 48px;
+}
+.bottom-box .box-four .t2 {
+  float: left;
+  margin-top: 5px;
+  padding-left: 40px;
+}
+.bottom-box .box-four .pa {
+  position: absolute;
+  left: 24px;
+  bottom: -40px;
+}
+.bottom-box .box-four .pb {
+  position: absolute;
+  left: 165px;
+  bottom: -40px;
+}
+.box-five {
+  height: 65px;
+  background-color: #303030;
+  margin-top: -10px;
+}
+.box-five p {
+  height: 60px;
+  line-height: 60px;
+  color: #a9a9a9;
+}

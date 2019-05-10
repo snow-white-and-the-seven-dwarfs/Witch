@@ -39,7 +39,6 @@ function screen() {
         $('.small_screen')[0].isShow = true;
         $('.small_screen').slideDown(500);
     } else {
-        console.log('全屏');
         $('.small_screen').css('display', 'none');
         $('.small_screen')[0].isSmallScreen = false;
     }

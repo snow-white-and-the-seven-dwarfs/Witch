@@ -377,7 +377,7 @@
   float: left;
 }
 .composition li:last-child .left {
-  width: 32px;
+  width: 30px;
 }
 .composition li:last-child .right {
   width: 24px;

@@ -1,0 +1,350 @@
+* {
+    padding: 0;
+    margin : 0;
+}
+
+input {
+    border : 0;
+    outline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    outline: none;
+}
+
+body {
+    font            : 14px arial, 'microsoft yahei';
+    background-color: #f3f6f6;
+}
+
+.wrapper {
+    width : 1130px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content   : "";
+    display   : block;
+    height    : 0;
+    visibility: hidden;
+    clear     : both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'microsoft yahei', sans-serif;
+    font-size  : 15px;
+    line-height: 25px;
+    color      : #74797b;
+    font-weight: 400;
+}
+
+// 小黑条
+.blackTitle {
+    background-color: #222;
+    height          : 161px;
+    box-sizing      : border-box;
+
+    .wrapper div {
+        width      : 25%;
+        text-align : center;
+        padding-top: 25px;
+
+        h3 {
+            font-size  : 36px;
+            font-weight: 700;
+            color      : #fff;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size : 18px;
+            color     : #797979;
+        }
+    }
+}
+
+// 展示模块
+.banner-show {
+
+    // 背景图小白
+    .small-bg {
+        height    : 196px;
+        background: url(../images/background.png) no-repeat white center;
+    }
+
+    // 下放手机两侧模块
+    .xinMing-show {
+        height          : 494px;
+        padding-top     : 74px;
+        background-color: #f9f9f9;
+        position        : relative;
+
+        // 中间图片
+        .products-iPhone {
+            width   : 23%;
+            position: absolute;
+            top     : -105px;
+            left    : 0;
+            right   : 0;
+            bottom  : 0;
+            margin  : auto;
+
+            img {
+                display : none;
+                position: absolute;
+            }
+        }
+
+        // 两侧公共样式
+        p {
+            margin: 25px 0 21px;
+        }
+
+        .h3box {
+            height: 26px;
+
+            h3 {
+                line-height: 10px;
+            }
+
+            h3:hover .under-line {
+                width: 100%;
+            }
+        }
+
+        // 左侧样式
+        .show-l {
+            width     : 385px;
+            text-align: right;
+            position  : relative;
+
+            h3 {
+                width    : 106px;
+                color    : #00bbb3;
+                font-size: 15px;
+            }
+
+            .show-l-3 h3 {
+                width: 120px;
+            }
+        }
+
+        // 右侧样式
+        .show-r {
+            width     : 385px;
+            text-align: left;
+
+            h3 {
+                width    : 106px;
+                color    : #00bbb3;
+                font-size: 15px;
+            }
+
+            .show-r-3 h3 {
+                width: 120px;
+            }
+        }
+
+        // 下划线
+        .under-line {
+            display         : inline-block;
+            height          : 1px;
+            width           : 0px;
+            background-color: #00bbb3;
+            transition      : 0.3s linear;
+        }
+
+        .items {
+            display : none;
+            position: relative;
+        }
+    }
+}
+
+// 轮播
+.router-Chart {
+    margin-top: 40px;
+    height    : 418px;
+    background: url(../images/sss.bmp) no-repeat;
+    text-align: center;
+    position  : relative;
+
+    .view {
+        width   : 80%;
+        height  : 100%;
+        margin  : 0 auto;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .list {
+        height  : 100%;
+        width   : 800%;
+        overflow: hidden;
+        position: absolute;
+
+        li {
+            height: 100%;
+            width : 12.5%;
+            float : left;
+
+            p {
+                position   : relative;
+                width      : 80%;
+                margin     : 0 auto;
+                font-size  : 32px;
+                color      : #fff;
+                font-weight: bold;
+                line-height: 60px;
+
+                i {
+                    left     : 50%;
+                    top      : -70px;
+                    font-size: 40px;
+                    position : absolute;
+                }
+            }
+
+            .top {
+                margin-top: 8%;
+            }
+
+            .bottom {
+                font-size: 24px;
+
+                span {
+                    color: #00bbb3;
+                }
+            }
+        }
+    }
+
+    .dot {
+        top     : 0;
+        right   : 30px;
+        bottom  : 0;
+        margin  : auto;
+        height  : 156px;
+        position: absolute;
+
+        li {
+            width     : 10px;
+            height    : 10px;
+            margin    : 10px;
+            cursor    : pointer;
+            text-align: center;
+
+            span {
+                width           : 6px;
+                height          : 6px;
+                border-radius   : 50%;
+                display         : inline-block;
+                background-color: #fff;
+            }
+        }
+    }
+
+}
+
+.active span {
+    width : 10px !important;
+    height: 10px !important;
+}
+
+// 小绿条
+.greenTitle {
+    background: url(../images/222.JPG);
+    text-align: center;
+    box-sizing: border-box;
+
+    .element {
+        padding    : 39px 0 34px 0;
+        line-height: 77px;
+        height     : 150px;
+        color      : #fff;
+
+        span {
+            font-size  : 26px;
+            font-weight: 400;
+        }
+    }
+}
+
+// 最底部
+.lastFooter {
+    background-color: #303030;
+
+    .filing-query-number {
+        padding   : 25px 0;
+        color     : #969487;
+        text-align: center;
+
+        span:hover {
+            color : #fff;
+            cursor: pointer;
+        }
+    }
+
+    .friendly-link {
+        width     : 95%;
+        margin    : 0 auto;
+        padding   : 15px 0;
+        border-top: 1px solid #999;
+
+        a {
+            color    : #969487;
+            font-size: 12px;
+            padding  : 0 6px;
+        }
+
+        a:hover {
+            text-decoration: none;
+            color          : #fff;
+        }
+    }
+}
+
+// 回到顶部
+.toTop {
+    text-align      : center;
+    color           : #fff;
+    position        : fixed;
+    display         : none;
+    right           : 0;
+    bottom          : 0;
+    width           : 35px;
+    height          : 35px;
+    line-height     : 35px;
+    background-color: #00bbb4;
+
+    span {
+        cursor: pointer;
+    }
+}
